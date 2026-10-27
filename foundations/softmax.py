@@ -10,4 +10,3 @@ class Solution:
         # return np.round(your_answer, 4)
         n = z - np.max(z)
         return np.round(np.exp(n)/np.sum(np.exp(n)),4)
-        pass
